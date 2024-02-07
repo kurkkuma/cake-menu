@@ -1,0 +1,150 @@
+@import url(reset.css);
+
+@font-face {
+  font-family: "Adelia";
+  src: url("fonts/adelia.ttf");
+}
+
+@font-face {
+  font-family: "Classy";
+  src: url("fonts/Classyvogueregular.ttf");
+}
+
+:root {
+  --color-bg: #ebe3d5;
+  --color-font: #5d3c34;
+  font-size: 16px;
+  letter-spacing: 0.2rem;
+}
+
+body {
+  background: rgb(235, 229, 213);
+  background: linear-gradient(
+    0deg,
+    rgba(235, 229, 213, 1) 0%,
+    rgba(93, 60, 52, 0.4800770308123249) 300%
+  );
+
+  color: var(--color-font);
+}
+
+.canvas-container-1,
+.canvas-container-2,
+.canvas-container-3 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  justify-content: center;
+  flex-basis: 40%;
+}
+img {
+  width: 10rem;
+}
+
+/* titles */
+.main-container {
+  background: linear-gradient(#ebe5d5, #ebe5d5) 50% / calc(100% - 4px)
+      calc(100% - 4px) no-repeat,
+    linear-gradient(0deg, transparent 10%, #5d3c34 200%);
+  border-radius: 0px;
+  padding: 2px;
+  box-sizing: content-box;
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.title {
+  margin: 1rem 0;
+  text-align: center;
+}
+.title h3 {
+  font-family: "Adelia";
+  font-size: 1.2rem;
+}
+.title h1 {
+  font-family: "Classy";
+  font-size: 2rem;
+}
+
+/* cakes */
+.cakes-container {
+  padding: 1rem;
+}
+
+.cake-container-1,
+.cake-container-2,
+.cake-container-3 {
+  width: 100%;
+  height: 15rem;
+  max-height: 730px;
+  display: flex;
+  justify-content: space-between;
+}
+.cake-container-2 {
+  flex-direction: row-reverse;
+}
+
+.name {
+  font-size: 1rem;
+  padding-bottom: 0.5rem;
+  margin-bottom: 0.5rem;
+  border-bottom: 2px solid var(--color-font);
+}
+.cake-info {
+  flex-basis: 50%;
+}
+.cake-info p {
+  font-size: 0.75rem;
+  line-height: 0.8rem;
+  margin-bottom: 0.5rem;
+}
+
+.price {
+  font-size: 1rem;
+}
+
+/* media  */
+@media (max-width: 320px) {
+  :root {
+    font-size: 12px;
+  }
+}
+@media (max-width: 470px) {
+  .name {
+    border-bottom: 1px solid var(--color-font);
+  }
+  img {
+    width: 7rem;
+  }
+}
+@media (min-width: 768px) {
+  :root {
+    font-size: 20px;
+  }
+  .main-container {
+    max-width: 900px;
+  }
+  .cakes-container {
+    padding: 3rem;
+  }
+  .cake-info p {
+    font-size: 1rem;
+    line-height: 1.2rem;
+  }
+  .cake-container-1,
+  .cake-container-2,
+  .cake-container-3 {
+    height: 17rem;
+  }
+}
+
+@media (min-width: 1700px) {
+  :root {
+    font-size: 32px;
+  }
+  .main-container {
+    max-width: 1760px;
+  }
+}

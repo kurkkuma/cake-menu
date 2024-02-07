@@ -1,0 +1,11 @@
+Model Information:
+* title:	Roll-cake
+* source:	https://sketchfab.com/3d-models/roll-cake-ec245e2a737c40cc82d42ee2e7adba43
+* author:	Ronen (https://sketchfab.com/ronenh)
+
+Model License:
+* license type:	CC-BY-ND-4.0 (http://creativecommons.org/licenses/by-nd/4.0/)
+* requirements:	Author must be credited. Modified versions can not be distributed. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Roll-cake" (https://sketchfab.com/3d-models/roll-cake-ec245e2a737c40cc82d42ee2e7adba43) by Ronen (https://sketchfab.com/ronenh) licensed under CC-BY-ND-4.0 (http://creativecommons.org/licenses/by-nd/4.0/)
